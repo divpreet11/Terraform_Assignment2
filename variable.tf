@@ -1,7 +1,7 @@
-# # Define a list of bucket names
-# variable "bucket_names" {
-#   default = ["divpreet-bucket-1", "divpreet-bucket-2", "divpreet-bucket-3"]
-# }
+# Define a list of bucket names
+variable "bucket_names" {
+  default = ["divpreet-bucket-1", "divpreet-bucket-2", "divpreet-bucket-3"]
+}
 
 # Define the number of buckets to create
 variable "num_buckets" {
